@@ -60,6 +60,24 @@ const AchievementsSection = () => {
           ))}
         </div>
 
+        <div className="grid md:grid-cols-3 gap-6 mb-12">
+          <img
+            src="https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?q=80&w=2070"
+            alt="Космические достижения"
+            className="rounded-lg shadow-lg h-48 w-full object-cover"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2070"
+            alt="Культурное наследие"
+            className="rounded-lg shadow-lg h-48 w-full object-cover"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=2070"
+            alt="Научные достижения"
+            className="rounded-lg shadow-lg h-48 w-full object-cover"
+          />
+        </div>
+
         <div className="bg-gradient-to-r from-blue-600 to-red-600 rounded-lg p-8 text-white text-center">
           <Icon
             name="Star"

@@ -47,6 +47,14 @@ const UnitySection = () => {
           ))}
         </div>
 
+        <div className="mt-12 mb-8">
+          <img
+            src="https://images.unsplash.com/photo-1547036967-23d11aacaee0?q=80&w=2070"
+            alt="Карта России"
+            className="rounded-lg shadow-lg w-full max-w-4xl mx-auto h-64 object-cover"
+          />
+        </div>
+
         <div className="text-center mt-12">
           <div className="inline-flex items-center space-x-2 bg-white rounded-full px-6 py-3 shadow-lg">
             <Icon name="Map" size={20} className="text-blue-600" />

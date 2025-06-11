@@ -35,16 +35,13 @@ const WarriorsSection = () => {
             </div>
           </div>
 
-          <div className="text-center">
-            <div className="bg-white rounded-lg shadow-lg p-8">
-              <div className="text-6xl mb-4">🎖️</div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                Герои России
-              </h3>
-              <p className="text-gray-600">
-                Ваше мужество и преданность — основа нашей силы и единства
-              </p>
-            </div>
+          <div className="relative">
+            <img
+              src="https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=2070"
+              alt="Военный мемориал"
+              className="rounded-lg shadow-lg w-full h-64 object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
           </div>
         </div>
       </div>
